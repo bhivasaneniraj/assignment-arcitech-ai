@@ -1,0 +1,49 @@
+.CategoryDistributionSection {
+    background-color: #f9f9f9; 
+    padding: 100px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.CategoryDistributionChart {
+    background: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.CategoryDistributionChart h2 {
+    margin-bottom: 20px;
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+}
+
+.chart {
+    transition: transform 0.3s ease; 
+}
+
+.CategoryDistributionSection:hover {
+    transform: scale(1.02); 
+}
+
+.CategoryDistributionChart:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
+}
+
+/* Custom Tooltip styles */
+.recharts-tooltip {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #8884d8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+    text-align: center;
+    color: #666;
+    font-size: 18px; 
+    font-style: italic; 
+}

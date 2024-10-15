@@ -1,0 +1,71 @@
+.ResponseTimesSection {
+    background-color: #f0f4f8; 
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+.ResponseTimesSection:hover{
+    transform: scale(1.02); 
+}
+
+.ResponseTimesChart {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+}
+.ResponseTimesChart:hover{
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
+}
+
+.ResponseTimesChart h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.response-select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.response-select:hover {
+    background-color: #f4f4f4; 
+}
+
+.line-chart {
+    transition: transform 0.3s ease;
+}
+
+.line-chart:hover {
+    transform: scale(1.02); /* Subtle scale effect on chart hover */
+}
+
+/* Tooltip styling */
+.recharts-tooltip-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #8884d8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+/* Loading state style */
+.loading {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+}

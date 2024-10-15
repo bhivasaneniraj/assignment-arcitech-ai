@@ -1,0 +1,106 @@
+.NavbarSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;
+    position: relative;
+}
+
+.NavbarLogo{
+    display: flex;
+}
+
+.LogoName {
+    color: #fff; /* White text */
+    margin-left: 10px;
+}
+
+.LogoImage {
+    width: 50px; /* Logo size */
+    height: auto;
+}
+
+.NavbarMenu {
+    list-style-type: none;
+    display: flex;
+    gap: 15px; /* Space between menu items */
+}
+
+.NavbarMenu li {
+    display: inline;
+}
+
+.NavbarMenu li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.NavbarMenu li a:hover,
+.NavbarMenu li a.active {
+    background-color: #0088FE; /* Highlight color on hover/active */
+}
+
+@media (max-width: 768px) {
+    .NavbarMenu {
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 60px; /* Adjust based on your Navbar height */
+        right: 0;
+        background-color: #333; /* Match background */
+        width: 100%; /* Full width */
+        display: none; /* Hidden by default */
+        z-index: 10; /* Ensure it appears above other elements */
+    }
+
+    .NavbarMenu.show {
+        display: flex; /* Show on toggle */
+    }
+
+    .NavbarMenu li {
+        text-align: right;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none; /* Hidden by default */
+    flex-direction: column; /* Stack bars */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.bar {
+    height: 4px; /* Bar height */
+    width: 30px; /* Bar width */
+    background-color: white; /* Bar color */
+    margin: 4px 0; /* Space between bars */
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 2px; /* Rounded corners */
+}
+
+.bar.active {
+    background-color: white; /* Ensure the color is consistent when active */
+}
+
+.bar.active:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); /* Align the first bar */
+}
+
+.bar.active:nth-child(2) {
+    opacity: 0; /* Hide the second bar */
+}
+
+.bar.active:nth-child(3) {
+    transform: translateY(-15px) rotate(-45deg); /* Align the third bar */
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show on mobile */
+    }
+}

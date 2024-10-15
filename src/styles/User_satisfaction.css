@@ -1,0 +1,68 @@
+
+.UserSatisfactionSection {
+    background-color: #f7faff;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.UserSatisfactionChart {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.UserSatisfactionChart:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.UserSatisfactionChart h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chart-select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.chart-select:hover {
+    background-color: #f4f4f4;
+}
+
+.loading {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Pie chart colors and animations */
+.recharts-pie-sector:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+/* Tooltip styling */
+.recharts-tooltip-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #8884d8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}

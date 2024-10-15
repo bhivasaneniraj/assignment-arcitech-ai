@@ -1,0 +1,72 @@
+.UsageStatisticsSection {
+    background-color: #f9fafb;
+    padding: 100px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .UsageStatisticsChart {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .UsageStatisticsChart:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .UsageStatisticsChart h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .chart-select {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chart-select:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  /* Pie chart hover effect */
+  .recharts-pie-sector {
+    transition: transform 0.2s ease;
+  }
+  
+  .recharts-pie-sector:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Tooltip styling */
+  .recharts-tooltip-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #8884d8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    padding: 10px;
+  }
+  
