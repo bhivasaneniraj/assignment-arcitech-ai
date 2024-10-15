@@ -1,3 +1,5 @@
+## Youtube Link: https://youtu.be/950FUPw2VPI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -11,64 +13,37 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Project Overview Script
 
-### `npm test`
+*Assignment Context:*
+"As per the assignment brief, the objective was to develop a single-page application that visualizes AI data. This dashboard displays data fetched from a mock AI service and presents it in a visually appealing and interactive manner."
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Key Features:*
+1. *Application Setup:*
+   - "The project was initialized using Create React App, and TypeScript was integrated for type safety."
 
-### `npm run build`
+2. *Mock AI Service Integration:*
+   - "I utilized a provided JSON file to simulate fetching data from an AI service. The data includes insights such category distribution, average response times, user satisfaction, usage statistics."
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. *Data Visualization:*
+   - "For data visualization, I implemented one interactive charts using [Recharts]. We have a bar chart for category distribution and a line chart for response times, showcasing trends over time."
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. *State Management:*
+   - "Redux was used for state management. I created separate slices for different data categories, allowing seamless updates and management of the application state."
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. *Styling and Layout:*
+   - "The application was styled using CSS and SCSS, ensuring a clean and modern layout. I paid special attention to responsiveness, ensuring that the dashboard functions well on various screen sizes."
 
-### `npm run eject`
+6. *Frontend Design:*
+   - "The user interface is designed for intuitive interaction with the data, featuring a consistent theme across all components. I incorporated hover effects and animations to enhance user experience."
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Dashboard Demonstration:*
+- (Here, navigate through your application and highlight key components)
+   - "As you can see, the dashboard provides a clear summary of insights category distribution, average response times, user satisfaction, usage statistics."
+   - "Here’s the category distribution, displayed as a bar chart, which shows the number of queries across different categories."
+   - "Additionally, the response times are illustrated through a line chart, allowing users to observe trends over days and weeks."
+   - "I’ve also included user satisfaction ratings and usage statistics, represented through various charts, to provide a comprehensive overview."
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-# AI Insights Dashboard
-
-## Project Overview
-The AI Insights Dashboard is a web application designed to visualize various insights related to AI queries. It provides users with an intuitive interface to view metrics such as total queries, response times, and user satisfaction ratings.
-
-## Technologies Used
-- **Frontend**: React, TypeScript, SCSS, Recharts
-- **Data Format**: JSON
-
-## Features
-- **Insight Summary**: Displays key performance metrics at a glance.
-- **Visual Charts**: Interactive charts for data visualization.
-- **Responsive Design**: Mobile-friendly layout ensuring accessibility on various devices.
-
-## Key Components
-### Dashboard Component
-The core of the application, fetching data and rendering charts.
-
-- **State Management**: Utilizes `useState` for managing data states.
-- **Data Fetching**: `useEffect` for fetching data asynchronously from a local JSON file.
-
-## Future Improvements
-- Adding authentication for personalized user experiences.
-- Implementing real-time data updates via API calls.
+*Conclusion:*
+"In conclusion, this project not only demonstrates my technical skills in React and Redux but also my ability to create a user-friendly and visually appealing application. I hope you find this dashboard insightful. Thank you for your time!".
 
